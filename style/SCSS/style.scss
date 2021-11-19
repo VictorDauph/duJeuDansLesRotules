@@ -1,0 +1,9 @@
+/* 
+Application mise en forme avec bootstrap.
+
+Lancers Sass : 
+sass --watch ./style/SCSS/style.scss:./style/CSS/style.css 
+*/
+
+@import "variables_overrides";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
