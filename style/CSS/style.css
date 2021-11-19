@@ -11128,6 +11128,14 @@ textarea.form-control-lg {
   font-family: "titles";
   src: url("../../ressources/fonts/Snickles.ttf") format("truetype");
 }
+@font-face {
+  font-family: "texts";
+  src: url("../../ressources/fonts/CalibriRegular.ttf") format("truetype");
+}
+* {
+  font-family: texts;
+}
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, nav a {
   font-family: titles;
   color: #69193B;
@@ -11137,11 +11145,11 @@ header h1, header .h1 {
   font-size: 4em;
 }
 
-header h2, header .h2 {
+h2, .h2 {
   font-size: 2.5em;
 }
 
-a, p {
+header a, header p {
   font-size: 1.8em;
 }
 

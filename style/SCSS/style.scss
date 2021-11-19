@@ -15,6 +15,17 @@ sass --watch ./style/SCSS/style.scss:./style/CSS/style.css
     src: url("../../ressources/fonts/Snickles.ttf") format("truetype");
 }
 
+@font-face
+{
+    font-family: "texts";
+    src: url("../../ressources/fonts/CalibriRegular.ttf") format("truetype");
+}
+
+*
+{
+    font-family: texts;
+}
+
 h1,h2,h3,h4,h5, nav a
 {
     font-family: titles;
@@ -26,12 +37,14 @@ header h1
     font-size: 4em;
 }
 
-header h2
+h2
 {
     font-size: 2.5em;
 }
 
-a,p
-{
-    font-size: 1.8em;
+header{
+    a,p
+    {
+        font-size: 1.8em;
+    }
 }
