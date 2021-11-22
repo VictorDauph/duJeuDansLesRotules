@@ -11229,6 +11229,11 @@ header a, header p {
   font-size: 1.8em;
 }
 
+@media (max-width: 768px) {
+  header a, p {
+    font-size: 1.5em;
+  }
+}
 @media (max-width: 576px) {
   header a, p {
     font-size: 1em;

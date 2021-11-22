@@ -54,12 +54,16 @@ header{
     }
 }
 
-  //taille du text du cercle pour petits ecrans
+  //taille du text de la barre de navigation pour petits ecrans
+  @media (max-width:768px) {
+    header a,p{
+      font-size: 1.5em;
+    }
+}
   @media (max-width:576px) {
     header a,p{
       font-size: 1em;
     }
-
 }
 
 #img-title
