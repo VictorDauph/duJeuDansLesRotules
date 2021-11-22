@@ -6,6 +6,7 @@ sass --watch ./style/SCSS/style.scss:./style/CSS/style.css
 */
 
 @import "variables_overrides";
+@import "circular_display";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 //polices personnalisées
@@ -24,6 +25,10 @@ sass --watch ./style/SCSS/style.scss:./style/CSS/style.css
 *
 {
     font-family: texts;
+    &:focus{
+        border: 3px solid $primary
+    }
+
 }
 
 h1,h2,h3,h4,h5, nav a
@@ -51,14 +56,24 @@ header{
 
 #img-title
 {
+    min-height: 400px;
+}
+
+.transition
+{
+    min-height: 50px;
+}
+
+
+//style du header
+.paralax
+{
     position: relative;
     background-image: url("../../ressources/images/chou.png");
     background-position: center;
     background-position-y: 50px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 400px;
-    
 }
 
 #title-position
@@ -68,5 +83,38 @@ header{
     p{
         font-size: 1.2em;
     }
-    
+}
+
+.sticky {
+    z-index: 9999;
+    position: fixed;
+    right: -30%;
+    top: 0;
+    width: 100%;
+  }
+
+//images portfolio
+.img-Portfolio{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    object-fit: none;
+    font-size: 1.5em;
+}
+
+#telescopeHarmonique{
+    background-image: url(../../ressources/images/telescopeHarmonique.png);
+}
+
+#arche{
+    background-image: url(../../ressources/images/archeDuTemps.png);
+}
+
+#reptiluminatis{
+    background-image: url(../../ressources/images/reptiluminatis.png);
+}
+
+#cocyclette{
+background-image: url(../../ressources/images/cocyclette.png);
 }
