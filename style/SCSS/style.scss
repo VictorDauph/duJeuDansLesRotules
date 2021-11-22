@@ -112,6 +112,13 @@ header{
     font-size: 1.5em;
 }
 
+@media (max-width:576px) {
+    .img-Portfolio{
+      font-size: 1em;
+      height: 300px;
+    }
+}
+
 #telescopeHarmonique{
     background-image: url(../../ressources/images/telescopeHarmonique.png);
 }
