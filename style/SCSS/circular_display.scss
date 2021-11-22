@@ -35,9 +35,17 @@
   }
 }
 
+  //taille du texte du cercle pour petits ecrans et du cercle
+  @media (max-width:768px) {
+    
+      #circle-container p{
+        font-size: 1em;
+      }
+
+  }
 
 //mise en forme du cercle
-#circle-container {
+.circle-container {
     @include on-circle($item-count: 7, $circle-size: 25em, $item-size: 6em); 
     margin: 5em auto 0;
 
@@ -56,16 +64,10 @@
     }
   }
 
-  //taille du text du cercle pour petits ecrans
-  @media (max-width:768px) {
-      #circle-container p{
-        font-size: 1em;
-      }
 
-  }
 
 //mise en forme du titre
-#circle-container-title{
+.circle-container-title{
 
     position: absolute;
     left: -50px;

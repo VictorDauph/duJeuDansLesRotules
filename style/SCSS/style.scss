@@ -54,6 +54,14 @@ header{
     }
 }
 
+  //taille du text du cercle pour petits ecrans
+  @media (max-width:576px) {
+    header a,p{
+      font-size: 1em;
+    }
+
+}
+
 #img-title
 {
     min-height: 400px;
@@ -80,6 +88,7 @@ header{
 {
     position: relative;
     font-weight: bold;
+    
     p{
         font-size: 1.2em;
     }

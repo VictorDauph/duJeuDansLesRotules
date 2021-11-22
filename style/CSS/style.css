@@ -5,7 +5,12 @@ Application mise en forme avec bootstrap.
 Lancers Sass : 
 sass --watch ./style/SCSS/style.scss:./style/CSS/style.css 
 */
-#circle-container {
+@media (max-width: 768px) {
+  #circle-container p {
+    font-size: 1em;
+  }
+}
+.circle-container {
   position: relative;
   width: 25em;
   height: 25em;
@@ -14,7 +19,7 @@ sass --watch ./style/SCSS/style.scss:./style/CSS/style.css
   list-style: none;
   margin: 5em auto 0;
 }
-#circle-container > * {
+.circle-container > * {
   display: block;
   position: absolute;
   top: 50%;
@@ -23,44 +28,39 @@ sass --watch ./style/SCSS/style.scss:./style/CSS/style.css
   width: 6em;
   height: 6em;
 }
-#circle-container > *:nth-of-type(1) {
+.circle-container > *:nth-of-type(1) {
   transform: rotate(0deg) translate(12.5em) rotate(0deg);
 }
-#circle-container > *:nth-of-type(2) {
+.circle-container > *:nth-of-type(2) {
   transform: rotate(51.4285714286deg) translate(12.5em) rotate(-51.4285714286deg);
 }
-#circle-container > *:nth-of-type(3) {
+.circle-container > *:nth-of-type(3) {
   transform: rotate(102.8571428571deg) translate(12.5em) rotate(-102.8571428571deg);
 }
-#circle-container > *:nth-of-type(4) {
+.circle-container > *:nth-of-type(4) {
   transform: rotate(154.2857142857deg) translate(12.5em) rotate(-154.2857142857deg);
 }
-#circle-container > *:nth-of-type(5) {
+.circle-container > *:nth-of-type(5) {
   transform: rotate(205.7142857143deg) translate(12.5em) rotate(-205.7142857143deg);
 }
-#circle-container > *:nth-of-type(6) {
+.circle-container > *:nth-of-type(6) {
   transform: rotate(257.1428571429deg) translate(12.5em) rotate(-257.1428571429deg);
 }
-#circle-container > *:nth-of-type(7) {
+.circle-container > *:nth-of-type(7) {
   transform: rotate(308.5714285714deg) translate(12.5em) rotate(-308.5714285714deg);
 }
-#circle-container p {
+.circle-container p {
   display: block;
   max-width: 100%;
   filter: grayscale(100%);
   transition: 0.15s;
   font-size: 1.2em;
 }
-#circle-container p:hover, #circle-container p:active {
+.circle-container p:hover, .circle-container p:active {
   filter: grayscale(0);
 }
 
-@media (max-width: 768px) {
-  #circle-container p {
-    font-size: 1em;
-  }
-}
-#circle-container-title {
+.circle-container-title {
   position: absolute;
   left: -50px;
   top: 125px;
@@ -70,7 +70,7 @@ sass --watch ./style/SCSS/style.scss:./style/CSS/style.css
   background-repeat: no-repeat;
   background-position: center;
 }
-#circle-container-title h3, #circle-container-title .h3 {
+.circle-container-title h3, .circle-container-title .h3 {
   position: absolute;
   left: 43%;
   top: 43%;
@@ -11229,6 +11229,11 @@ header a, header p {
   font-size: 1.8em;
 }
 
+@media (max-width: 576px) {
+  header a, p {
+    font-size: 1em;
+  }
+}
 #img-title {
   min-height: 400px;
 }
