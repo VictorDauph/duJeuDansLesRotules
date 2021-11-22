@@ -11257,7 +11257,7 @@ header a, header p {
 .sticky {
   z-index: 9999;
   position: fixed;
-  right: -30%;
+  right: 0;
   top: 0;
   width: 100%;
 }
