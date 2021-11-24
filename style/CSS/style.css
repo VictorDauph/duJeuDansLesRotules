@@ -107,7 +107,7 @@ a:hover, a:focus {
 
 @keyframes apparition-navbar-reverse {
   0% {
-    transform: translateX(50%);
+    transform: translateX(-50%);
     opacity: 0;
   }
   65% {
