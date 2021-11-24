@@ -15,5 +15,7 @@ function stickNavbar() {
     navbar.classList.remove("bg-opacity-50")
   } else {
     navbar.classList.remove("sticky");
+    navbar.classList.add("bg-opacity-50")
+    navbar.classList.remove("bg-opacity-75")
   }
 } 

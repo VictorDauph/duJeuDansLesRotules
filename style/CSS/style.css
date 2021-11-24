@@ -11236,7 +11236,7 @@ header a, header p {
 }
 @media (max-width: 576px) {
   header a, p {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 #img-title {
