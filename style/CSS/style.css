@@ -11227,6 +11227,7 @@ h2, .h2 {
 
 header a, header p {
   font-size: 1.8em;
+  vertical-align: middle;
 }
 
 @media (max-width: 768px) {
@@ -11301,6 +11302,16 @@ header a, header p {
 
 #cocyclette {
   background-image: url(../../ressources/images/cocyclette.png);
+}
+
+#portfolio-page .card-text {
+  font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+  #portfolio-page .card-text {
+    font-size: 0.8em;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -51,6 +51,7 @@ header{
     a,p
     {
         font-size: 1.8em;
+        vertical-align: middle;
     }
 }
 
@@ -137,4 +138,20 @@ header{
 
 #cocyclette{
 background-image: url(../../ressources/images/cocyclette.png);
+}
+
+
+//style cartes portfolio
+#portfolio-page{
+    .card-text{
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width:768px) {
+    #portfolio-page{
+        .card-text{
+            font-size: 0.8em;
+        }
+    }
 }
