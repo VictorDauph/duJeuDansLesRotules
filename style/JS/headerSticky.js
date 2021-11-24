@@ -13,9 +13,13 @@ function stickNavbar() {
     navbar.classList.add("sticky")
     navbar.classList.add("bg-opacity-75")
     navbar.classList.remove("bg-opacity-50")
+    navbar.classList.add("anim-navbar")
+    navbar.classList.remove("anim-navbar-reverse")
   } else {
     navbar.classList.remove("sticky");
     navbar.classList.add("bg-opacity-50")
     navbar.classList.remove("bg-opacity-75")
+    navbar.classList.remove("anim-navbar")
+    navbar.classList.add("anim-navbar-reverse")
   }
 } 

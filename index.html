@@ -15,8 +15,11 @@
   <body>
     <header id="img-title" class="container-fluid bg-secondary shadow my-0 paralax">
       <div class="row">
-        <div class="col-2"></div>
-        <h1 class="text-primary col bg-secondary bg-opacity-50">Du jeu dans les rotules </h1>
+        <div class="col-md-1 col-lg-2"></div>
+        <div class="d-none d-md-block col-md-2 my-3 col-lg-1" >
+          <img src="./ressources/images/logo.png" class="w-100">
+        </div>
+        <h1 class="text-primary col bg-secondary bg-opacity-50 my-5 ">Du jeu dans les rotules </h1>
       </div>
       <div class="row">
         <div class="col-2"></div>
@@ -24,8 +27,8 @@
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-4 col-1"></div>
-        <div class="col">
-          <nav id="navbar" class=" d-flex justify-content-center text-primary mx-sm-5 bg-secondary bg-opacity-50  rounded">
+        <div class="col-auto">
+          <nav id="navbar" class=" d-flex justify-content-center text-primary mx-sm-5 bg-secondary bg-opacity-50  rounded"> <!-- animer la barre-->
             <a class="mx-1 text-decoration-none" href="#">Top <span>-</span></a>
 
             <a class="mx-1 text-decoration-none" href="#methodo">Methodo <span>-</span></a> 
@@ -34,7 +37,7 @@
 
             <a class="mx-1 text-decoration-none" href="#portfolio"> Portfolio <span>-</span></a>
 
-            <a class="mx-1 text-decoration-none">Contact</a>
+            <a class="mx-1 text-decoration-none" href="#contact">Contact</a>
           </nav>
         </div>
 
@@ -49,7 +52,7 @@
 
     <main class="container my-5">
       
-      <section>
+      <section class="">
         <h2 id="methodo">Methodo</h2>
 
         <div class="card bg-secondary shadow">
@@ -122,7 +125,7 @@
         </div>
       </section>
       <div class="transition paralax container-fluid bg-secondary shadow my-5"></div>
-      <section>
+      <section class="">
         <h2 id="apropos"> A propos</h2>
         <ul id="circle-container" class="circle-container">
           <div id="circle-container-title" class="circle-container-title"> <h3>Des JEUX</h3> </div>
@@ -148,7 +151,7 @@
         </div>
       </section>  
       <div class="transition paralax container-fluid bg-secondary shadow my-3"></div>
-      <section class="container-fluid">
+      <section class="container-fluid ">
         <h2 id="portfolio" class="row">Portfolio</h2>
         <div class="row">
           <a href="./pages/portfolio.html#telescope-link" id="telescopeHarmonique" class="col-11 col-lg-5 img-Portfolio img-Portfolio-1 mx-3 my-3 text-white py-4 px-3 text-decoration-none text-center ">Le Télescope Harmonique</a>
@@ -157,7 +160,13 @@
           <a href="./pages/portfolio.html#reptiluminati-link" id="reptiluminatis" class="col-11 col-lg-5 img-Portfolio img-Portfolio-1 mx-3 my-3 px-3 text-dark text-decoration-none text-center ">Reptiluminatis</a>
         </div>
       </section>
-      <div class="my-5 px-5 py-3 shadow rounded bg-secondary">
+
+      <div class="transition paralax container-fluid bg-secondary shadow my-3"></div>
+        <!-- formulaire nom email message-->
+        <section id="contact" class="container-fluid bg-secondary p-3 rounded shadow my-4"> 
+          <h2>Contact</h2>
+          <a class="bg-primary text-white p-2 text-decoration-none shadow rounded" href="mailto:rt.romain.truong@gmail.com">Envoyez moi un email !</a> 
+      </section>
     </main>
 
     <!-- Javascript -->
