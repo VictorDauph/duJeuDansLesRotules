@@ -49,6 +49,8 @@ h2
 }
 
 header{
+    //hauteur du header: 100%de l'écran
+    height: 100vh;
     a,p
     {
         font-size: 1.6em;
@@ -80,7 +82,7 @@ header{
 
 
 //style du header
-.paralax
+.paralax //style de l'image paralaxée
 {
     position: relative;
     background-image: url("../../ressources/images/chou.png");
@@ -91,7 +93,7 @@ header{
 
 }
 
-#title-position
+#title-position //style du texte de descrption du header
 {
     position: relative;
     font-weight: bold;
