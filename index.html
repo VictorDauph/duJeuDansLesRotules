@@ -6,7 +6,7 @@
 
     <!-- Required meta tags -->
     <meta charset="UTF-8" />
-    <title>Du jeu dans les rotules</title>
+    <title>Du jeu dans les Rotules</title>
     <link rel="stylesheet" href="./style/CSS/style.css" />  <!--link fichier CSS-->
     <script src="https://kit.fontawesome.com/8466c28965.js" crossorigin="anonymous"></script> <!-- lien fontawesome pour les icônes-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- permet au navigateur d'utiliser la largeur réelle du device mobile pour appliquer les effets responsive.-->
@@ -18,19 +18,23 @@
       <div class="row">
         <div class="col-md-1 col-lg-2"></div>
         <div class="col-4 col-md-2 my-3 col-lg-1 " >
-          <img src="./ressources/images/logo.png" alt="logo" class="w-100 bg-secondary bg-opacity-50 rounded">
+          <img id="logo" src="./ressources/images/logo.png" alt="logo" class="bg-secondary bg-opacity-50 rounded">
         </div>
-        <h1 class="text-primary col bg-secondary bg-opacity-50 my-5 ">Du jeu dans les rotules </h1>
+        <h1 class="text-primary col bg-secondary bg-opacity-50 my-5 ">Du jeu dans les Rotules </h1>
       </div>
       <div class="row">
-        <div class="col-2"></div>
-        <h2 class=" mx-5  col col-xl-2 text-center text-dark bg-secondary bg-opacity-50 rounded ">Romain Truong <span>-</span> Game Designer </h2>
+        <div class="col-md-2"></div>
+        <h2 class=" mx-5 my-5 text-center text-dark bg-secondary bg-opacity-75 rounded col ">Romain Truong <span>-</span> Game Designer </h2>
+        <div class="col-md-2"></div>
+      </div>
+      <div id="title-position" class="row">
+        <p  class=" text-center align-center bg-secondary bg-opacity-75 font-weight-bold">Explorateur polyvalent, je mets à profit mes expériences ludiques pour la conception, réalisation et animation de votre projet de jeu.</p>
       </div>
       <div class="row">
-        <div class="col-lg-6 col-md-4 col-1"></div>
-        <div class="col-auto">
-          <nav id="navbar" class=" d-flex justify-content-center text-primary mx-sm-5 bg-secondary bg-opacity-50  rounded"> <!-- animer la barre-->
-            <a class="mx-1 text-decoration-none" href="#">Top <span>-</span></a>
+        <div class="col-lg-3 col-md-4 col-1"></div>
+        <div class="col">
+          <nav id="navbar" class=" d-flex justify-content-center text-primary mx-sm-5 bg-secondary bg-opacity-75 my-5  rounded">
+            <a class="mx-1 text-decoration-none" href="#"><img class="logo-icon" src="./ressources/images/logo.png">DJDLR <span>-</span></a>
 
             <a class="mx-1 text-decoration-none" href="#methodo">Methodo <span>-</span></a> 
 
@@ -41,11 +45,9 @@
             <a class="mx-1 text-decoration-none" href="#contact">Contact</a>
           </nav>
         </div>
+        <div class="col-lg-3 col-md-4 col-1"></div>
+      </div>
 
-      </div>
-      <div id="title-position" class="row">
-        <p  class=" my-5 text-center align-center bg-secondary bg-opacity-75 font-weight-bold">Explorateur polyvalent, je met à profit mes expériences ludiques pour la conception, réalisation et animation de votre projet de jeu.</p>
-      </div>
     </header>
 
 
@@ -156,10 +158,10 @@
       <section class="container-fluid ">
         <h2 id="portfolio" class="row">Portfolio</h2>
         <div class="row">
-          <a href="./pages/portfolio.html#telescope-link" id="telescopeHarmonique" class="col-11 col-lg-5 img-Portfolio img-Portfolio-1 mx-3 my-3 text-white py-4 px-3 text-decoration-none text-center ">Le Télescope Harmonique</a>
-          <a href="./pages/portfolio.html#arche-link" id="arche" class="col-11 col-lg-5 img-Portfolio img-Portfolio-1 mx-3 my-3 py-2 px-3 text-dark text-decoration-none text-center ">L'Arche du temps</a>
-          <a href="./pages/portfolio.html#cocyclette-link" id="cocyclette" class="col-11 col-lg-5 img-Portfolio img-Portfolio-1 mx-3 my-3 py-2 px-3 text-dark text-decoration-none text-center ">Cocyclette</a>
-          <a href="./pages/portfolio.html#reptiluminati-link" id="reptiluminatis" class="col-11 col-lg-5 img-Portfolio img-Portfolio-1 mx-3 my-3 px-3 text-dark text-decoration-none text-center ">Reptiluminatis</a>
+          <a href="./pages/portfolio.html#telescope-link" id="telescopeHarmonique" class="col-11 col-lg-5 img-Portfolio img-Portfolio-1 mx-3 my-3 text-white py-4 px-3 text-decoration-none text-center "></a> <!--Les liens peuvent contenir du texte qui est déjà pré-formaté pour être affiché comme un titre. -->
+          <a href="./pages/portfolio.html#arche-link" id="arche" class="col-11 col-lg-5 img-Portfolio img-Portfolio-1 mx-3 my-3 py-2 px-3 text-dark text-decoration-none text-center "></a>
+          <a href="./pages/portfolio.html#cocyclette-link" id="cocyclette" class="col-11 col-lg-5 img-Portfolio img-Portfolio-1 mx-3 my-3 py-2 px-3 text-dark text-decoration-none text-center "></a>
+          <a href="./pages/portfolio.html#reptiluminati-link" id="reptiluminatis" class="col-11 col-lg-5 img-Portfolio img-Portfolio-1 mx-3 my-3 px-3 text-dark text-decoration-none text-center "></a>
         </div>
       </section>
 

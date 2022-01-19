@@ -11263,19 +11263,32 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, nav a {
 }
 
 header h1, header .h1 {
-  font-size: 4em;
+  font-size: 6em;
 }
 
+@media (max-width: 768px) {
+  header h1, header .h1 {
+    font-size: 3em;
+  }
+}
 h2, .h2 {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
+@media (max-width: 768px) {
+  h2, .h2 {
+    font-size: 2.2em;
+  }
+}
 header {
   height: 100vh;
 }
 header a, header p {
-  font-size: 1.6em;
-  vertical-align: middle;
+  font-size: 2em;
+}
+header .logo-icon {
+  height: 1.5em;
+  width: 1.5em;
 }
 
 @media (max-width: 768px) {
@@ -11291,7 +11304,19 @@ header a, header p {
 #img-title {
   min-height: 400px;
 }
+#img-title #logo {
+  width: 100%;
+  min-width: 6em;
+}
 
+@media (max-width: 768px) {
+  #img-title {
+    min-height: 400px;
+  }
+  #img-title #logo {
+    width: 80%;
+  }
+}
 .transition {
   min-height: 50px;
 }
