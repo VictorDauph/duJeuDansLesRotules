@@ -13,14 +13,14 @@ function stickNavbar() {
     navbar.classList.add("sticky")
     //navbar.classList.add("bg-opacity-75") //Ces lignes de codes servaient dans une version précédente où la transparence du ba&ckground dépendait de sa position dans la page
     //navbar.classList.remove("bg-opacity-50")
-    navbar.classList.remove("my-5")
+    navbar.classList.remove("my-2")
     navbar.classList.add("anim-navbar")
     navbar.classList.remove("anim-navbar-reverse")
   } else {
     navbar.classList.remove("sticky");
     //navbar.classList.add("bg-opacity-50")
     //navbar.classList.remove("bg-opacity-75")
-    navbar.classList.add("my-5")
+    navbar.classList.add("my-2")
     navbar.classList.remove("anim-navbar")
     navbar.classList.add("anim-navbar-reverse")
   }
